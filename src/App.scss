@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    background: #fff;
+    color: grey;
+
+    h1 {
+      padding-bottom: 10px;
+      margin: 0;
+    }
+
+    .inc-btn {
+      cursor: pointer;
+      padding: 5px;
+      color: #fff;
+      background: rgb(70, 241, 82);
+      border: none;
+      width: 50px;
+      border-radius: 5px;
+      font-weight: 700;
+      margin-right: 10px;
+    }
+    .dec-btn {
+      cursor: pointer;
+      margin-right: 10px;
+      padding: 5px;
+      color: #fff;
+      background: rgb(245, 45, 58);
+      border: none;
+      width: 50px;
+      border-radius: 5px;
+      font-weight: 700;
+    }
+
+    .inc-by-btn {
+      cursor: pointer;
+      margin-right: 10px;
+      padding: 5px;
+      color: #fff;
+      background: rgb(70, 241, 82);
+      border: none;
+      width: fit-content;
+      border-radius: 5px;
+      font-weight: 700;
+    }
+
+    .dec-by-btn {
+      cursor: pointer;
+      margin-right: 10px;
+      padding: 5px;
+      color: #fff;
+      background: rgb(245, 45, 58);
+      border: none;
+      width: fit-content;
+      border-radius: 5px;
+      font-weight: 700;
+    }
+  }
+}
